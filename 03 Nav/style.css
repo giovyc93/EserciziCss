@@ -1,0 +1,39 @@
+.nav li{
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+nav {
+    border: 3px solid black;
+    background-color: rgba(43, 40, 40, 0.836);
+    border-radius: 5px;
+    border-bottom: 3px solid white
+    ;
+}
+form {
+float:right;
+margin-right: 10px;
+
+
+}
+#Cerca:hover {
+    background-color: green;
+    color: white;
+}
+#Cerca{
+    background-color:rgba(43, 40, 40, 0.836);
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+
+    
+}
+li a { 
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+
+}
+#ham{
+    display: none;
+}
