@@ -1,0 +1,45 @@
+
+.scatola{
+    border: 1px black  solid;
+    display: grid;
+    width: 400px;
+    height:500px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  
+    margin: 1px;
+    border-radius: 5px;
+   
+   
+}
+#boxtot{
+    
+    
+    grid-column: 1/5;
+    background-color: dimgray;
+    text-align: right;
+    padding-top: 70px;
+    
+}
+
+.box1{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 45px;
+   
+    
+    
+
+}
+.box0{
+    border: 1px solid black;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    text-align: center;
+    background-color: red;
+    text-align: center;
+    padding-top: 45px;
+    
+}
+
