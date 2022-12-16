@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    
+
+
+
+}
+
+#yellow {
+    order: 1;
+
+}
+
+#green {
+    order: 3;
+    
+
+}
+
+#orange {
+    order: 4;
+    flex: 1 1 35%;
+
+}
+
+#red {
+    order: 2
+}
+
+#blue {
+    order: 5;
+
+}
