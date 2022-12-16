@@ -11,24 +11,24 @@
 
 <body>
     <nav>
-        <ul class="cerca">
-            <li><a href="https://google.com/">Navbar</a></li>
-            <li><a href="https://google.com/">Home</a></li>
-            <li><a href="https://google.com/">Link</a></li>
-            <li><a href="https://google.com/">Dropdown</a></li>
-            <button disabled="disabled">Disabled</button>
+        <div class="Container">
+            <ul>
+                <li class="bar">Navbar</li>
+                <li><a href="https://google.com/">Home</a></li>
+                <li><a href="https://google.com/">Link</a></li>
+            <li><button class="drop" type="button">Dropdown &#9660</button></li>
+            <li><button type="button" disabled>Disabled </button></li>
+            </ul>
             <form>
-                <input type="text" placeholder="Search" required>
-                <button id="Cerca" type="submit">Search</button>
+                <input type="text" name="search" placeholder="Search" required>
+                <button id="tasto" type="submit">Search</button>
             </form>
-            <div id="menub">
-                <div id="menu">
-                    <div id="b1"class="bar"></div>
-                    <div id="b2"class="bar"></div>
-                    <div id="b3"class="bar"></div>   
-                </div>
+            <div id="ham">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </ul>
+        </div>
     </nav>
 </body>
 
