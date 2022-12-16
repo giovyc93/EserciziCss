@@ -1,9 +1,9 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-} 
+}
 
 body {
     color: #ffff;
@@ -11,7 +11,7 @@ body {
 }
 
 
-.Container{
+.Container {
     border: 3px solid black;
     background-color: rgba(43, 40, 40, 0.836);
     border-radius: 5px;
@@ -21,69 +21,74 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 45px;  
+    height: 45px;
 }
 
 li {
-  display: inline-block;
-  list-style: none;
+    display: inline-block;
+    list-style: none;
     padding: 0 10px;
     color: white;
 }
 
-li a { 
+li a {
     text-decoration: none;
     color: #ffff;
 
 }
 
 
-#tasto{
-    background-color:rgba(43, 40, 40, 0.836);
+#tasto {
+    background-color: rgba(43, 40, 40, 0.836);
     color: #ffff;
     margin-right: 10px;
     border-radius: 5px;
 
-    
+
 }
+
 #tasto:hover {
     background-color: green;
     color: white;
 }
 
-input,button{
+input,
+button {
     padding: 3px;
 }
 
-.drop { 
+.drop {
     background-color: transparent;
     color: #ffff;
 
 }
-#ham{
-margin-right: 10px;
-display: none;
+
+#ham {
+    margin-right: 10px;
+    display: none;
 }
 
-#ham span{
+#ham span {
     width: 25px;
     height: 3px;
     display: block;
     border-radius: 30px;
     background-color: green;
     margin: 4px 0;
-    cursor:pointer;
-    
+    cursor: pointer;
+
 
 }
+
 @media only screen and (max-width: 768px) {
 
-    #ham {       
+    #ham {
         display: block;
 
     }
 
-    li:not(.bar), .search {
+    li:not(.bar),
+    .search {
         display: none;
 
     }

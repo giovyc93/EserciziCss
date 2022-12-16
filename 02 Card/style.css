@@ -7,15 +7,17 @@
 #imgg {
     max-width: 100%;
     height: auto;
-    border-bottom: solid black;   
+    border-bottom: solid black;
 }
 
 #intro {
     border-bottom: 1px solid black;
 }
+
 #item1 {
     border-bottom: 1px solid black;
 }
+
 #item2 {
     border-bottom: 1px solid black;
 
@@ -24,7 +26,8 @@
 #item3 {
     border-bottom: 1px solid black;
 }
+
 #item4 {
     padding-left: 8px;
-    
+
 }
